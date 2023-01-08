@@ -1,0 +1,16 @@
+{"level":"info","message":"Hola, esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Hola, esto es un mensaje de adventencia","service":"user-service"}
+{"level":"error","message":"Hola, esto es un mensaje de error","service":"user-service"}
+{"level":"info","message":"Hola, esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Hola, esto es un mensaje de adventencia","service":"user-service"}
+{"level":"error","message":"Hola, esto es un mensaje de error","service":"user-service"}
+{"level":"debug","message":"Hola, esto es un mensaje de degub","service":"user-service"}
+{"level":"info","message":"Hola, esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Hola, esto es un mensaje de adventencia","service":"user-service"}
+{"level":"error","message":"Hola, esto es un mensaje de error","service":"user-service"}
+{"level":"debug","message":"Hola, esto es un mensaje de degub","service":"user-service"}
+{"level":"info","message":"Hola, esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Hola, esto es un mensaje de adventencia","service":"user-service"}
+{"level":"error","message":"Hola, esto es un mensaje de error","service":"user-service"}
+{"level":"debug","message":"Hola, esto es un mensaje de degub","service":"user-service"}
+{"level":"error","service":"user-service"}
