@@ -1,24 +1,8 @@
-// localStorage.setItem("nombre", "Cristhian")
-// localStorage.setItem("nombre", "Juan")
+const nombre = "Cristhian";
+const apellido = "Salazar";
 
-// console.log(localStorage.getItem("nombre"));
+const nombreCompleto = { nombre, apellido };
 
-localStorage.setItem(
-  "persona",
-  JSON.stringify({ nombre: "Cristhian", edad: 24 })
-);
-
-// console.log(JSON.parse(localStorage.getItem("persona")));
-
-// JSON.stringify => Convierte un objeto/array en string
-// JSON.parse => Convierte un objeto/array de stringify en objeto de JS
-
-localStorage.removeItem("nombre");
-
-sessionStorage.setItem("nombre-sesion", "Cristhian");
-
-/* Coockies */
-document.cookie = "nombreCookie=Cristhian";
-document.cookie =
-  "nombreCaducidad=Nombre;expires" + new Date(2023, 0, 1).toUTCString();
-console.log(document.cookie);
+// sessionStorage.setItem("nombreCompleto", JSON.stringify(nombreCompleto));
+// localStorage.setItem("nombreCompleto", JSON.stringify(nombreCompleto));
+// document.cookie = `nombreCompleto=${JSON.stringify(nombreCompleto)};expires` + new Date(120000).toUTCString
